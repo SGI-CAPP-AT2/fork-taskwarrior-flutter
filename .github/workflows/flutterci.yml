@@ -4,7 +4,7 @@ on:
   push:
     paths-ignore:
       - '**.md'
-      - '.vscode'
+      - '.vscode/'
       - 'LICENSE'
     branches:
       - main
@@ -12,7 +12,7 @@ on:
   pull_request:
     paths-ignore:
       - '**.md'
-      - '.vscode'
+      - '.vscode/'
       - 'LICENSE'
     branches:
       - main
