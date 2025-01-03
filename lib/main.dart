@@ -4,6 +4,8 @@ import 'package:taskwarrior/app/utils/app_settings/app_settings.dart';
 import 'package:taskwarrior/app/utils/permissions/permissions_manager.dart';
 import 'app/routes/app_pages.dart';
 
+// CHANGE
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await AppSettings.init();
