@@ -10,6 +10,7 @@ void main() async {
 
   await PermissionsManager.requestAllPermissions();
 
+  # SOME CHANGE WHICH SHOULD RUN WORKFLOW
 
   runApp(
     GetMaterialApp(
