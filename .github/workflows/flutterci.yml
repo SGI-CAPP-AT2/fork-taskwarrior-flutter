@@ -2,17 +2,23 @@ name: Flutter CI
 
 on:
   push:
+    paths-ignore:
+      - '**.md'
+      - '.vscode/**'
+      - 'LICENSE'
     branches:
       - main
       - reports
 	paths:
 	  - '!**.md'
   pull_request:
+    paths-ignore:
+      - '**.md'
+      - '.vscode/**'
+      - 'LICENSE'
     branches:
       - main
       - reports
-	paths:
-	  - '!**.md'
 jobs:
   build:
     runs-on: ubuntu-latest
