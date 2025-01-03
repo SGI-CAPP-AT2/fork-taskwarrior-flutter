@@ -9,6 +9,8 @@ on:
     branches:
       - main
       - reports
+	paths:
+	  - '!**.md'
   pull_request:
     paths-ignore:
       - '**.md'
