@@ -2,16 +2,14 @@ name: Flutter CI
 
 on:
   push:
- 	paths:
-	  - '!**.md'
-	
+    paths:
+      - '!**.md'
     branches:
       - main
       - reports
   pull_request:
-	
-	paths:
-	  - '!**.md'
+    paths:
+      - '!**.md'
     branches:
       - main
       - reports
