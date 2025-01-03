@@ -10,7 +10,7 @@ void main() async {
 
   await PermissionsManager.requestAllPermissions();
 
-
+# THIS SHOULD RUN FLUTTER CI
   runApp(
     GetMaterialApp(
       title: "Application",
