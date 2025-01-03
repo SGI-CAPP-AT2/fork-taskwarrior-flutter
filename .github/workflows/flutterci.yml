@@ -4,12 +4,16 @@ on:
   push:
     paths-ignore:
       - '**.md'
+      - '.vscode'
+      - 'LICENSE'
     branches:
       - main
       - reports
   pull_request:
     paths-ignore:
       - '**.md'
+      - '.vscode'
+      - 'LICENSE'
     branches:
       - main
       - reports
