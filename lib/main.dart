@@ -3,6 +3,8 @@ import 'package:get/get.dart';
 import 'package:taskwarrior/app/utils/app_settings/app_settings.dart';
 import 'app/routes/app_pages.dart';
 
+// CHANGE
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await AppSettings.init();
